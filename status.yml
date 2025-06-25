@@ -1,0 +1,42 @@
+# made by github.com/kripo4
+menu_title: '           Ваша проходка'
+open_command: status
+size: 27
+items:
+  'glass':
+    material: orange_stained_glass_pane
+    data: 21
+    display_name: ' '
+    priority: 2
+    slots: [0, 1, 7, 8, 9, 17, 18, 19, 25, 26]
+  'info':
+    material: KNOWLEDGE_BOOK
+    slot: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+    display_name: '&#9863E7&m  '
+    lore:
+      - '&#9863E7&l╎ &fᴄᴛᴀᴛуᴄ: %luckperms_prefix%'
+      - '&#9863E7&l╎ &fосталось: &a%swlt_days% &fднᴇй %swlt_hours% &fчᴀᴄоʙ'
+      - '&#9863E7&l╎ &fиᴄᴛᴇчёт: %swlt_expiry_date%'
+      - '&#9863E7&m  '
+  tems:
+  'buy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVmZDY3ZDU2ZmZjNTNmYjM2MGExNzg3OWQ5YjUzMzhkNzMzMmQ4ZjEyOTQ5MWE1ZTE3ZThkNmU4YWVhNmMzYSJ9fX0=
+    hide_enchantments: true
+    hide_attributes: true
+    hide_effects: true
+    hide_unbreakable: true
+    slot: 14
+    display_name: ' &#DBCDF0&m  '
+    lore:
+      - ' &#DBCDF0продлиᴛь проходᴋу &8- &fоᴛ 99₽ '
+      - ' '
+      - ' &#DBCDF0│ &fчᴛобы продлиᴛь проходᴋу нᴀжʍиᴛᴇ ᴄюдᴀ'
+      - ' &#DBCDF0│ &fу ʙᴀᴄ оᴄᴛᴀлоᴄь: %swlt_days%&f днᴇй'
+      - ' &#DBCDF0&m  '
+    left_click_commands:
+      - '[message] '
+      - '[message] &fПродлиᴛь &8- &#9863E7вашсайт.ru'
+      - '[message] '
+      - '[close]'
